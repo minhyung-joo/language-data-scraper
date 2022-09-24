@@ -37,5 +37,7 @@ https://www.youtube.com/api/timedtext?v=SwQhKFMxmDY&caps=asr&xoaf=4&hl=ko&ip=0.0
 ```
 - <img src="docs/subtitle_payload.png" />
 
-- [Video payload]() (Sometimes the payload is broken, needs testing)
+- [Video payload](docs/video_payload.mp4)
+  - Initial package sends all header data & video data
+  - Following packages cannot be decoded w/o initial header data
 - [Audio payload]() (Sometimes the payload is broken, needs testing)
